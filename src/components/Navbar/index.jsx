@@ -19,7 +19,7 @@ const Navbar = () => {
             <nav className="h-71">
                 <main className="flex h-71 justify-between items-center mx-auto px-24 lg:px-99">
                     <Link to="/">
-                        <img className="w-183" src="/assets/logo.svg" alt="" />
+                        <h3 className='font-semibold text-20'>ConcertRx</h3>
                     </Link>
 
                     <button onClick={() => setToggleSidebar(!toggleSidebar)} type="button" className="relative inline-flex items-center p-2 ml-14 text-sm text-gray-500 rounded-xl xl:hidden  focus:outline-none focus:text-gray-800" aria-controls="mobile-menu-3" aria-expanded="false">
